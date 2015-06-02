@@ -49,10 +49,6 @@ class Centaur
 		end
 	end
 
-	def respond_to?(command)
-		true
-	end
-
 	def lay_down
 		@standing = false
 	end
